@@ -17,21 +17,36 @@ public class Livro {
     }
 
 //método getter (usado para acessar o valor do atributo privado da classe
-    public String getTitulo(){
-        return this.titulo;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public String getAutor(){
-        return this.autor;
+    public String getAutor() {
+        return autor;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public int getIsbn() {
+        return isbn;
+    }
+
+    //método setter 
+    public void setTitulo(String novoTitulo) {
+        this.titulo = novoTitulo;
     }
     
-    public int getAno(){
-        return this.ano;
+    public void setAutor(String novoAutor){
+        this.autor = novoAutor;
     }
     
-    public int getIsbn(){
-        return this.isbn;
+    public void setAno(int novoAno){
+        this.ano = novoAno;
     }
     
-    //método setter
+    public void setIsbn(int novoIsbn){
+        this.isbn = novoIsbn;
+    }
 }
